@@ -2,6 +2,7 @@ const express = require("express");
 const userRoutes = require("./routes/user.route ");
 
 const app = express();
+const db = require("./db");
 
 app.set("view engine", "ejs");
 
